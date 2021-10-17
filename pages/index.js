@@ -6,7 +6,7 @@ function HomePage(props) {
   const { products } = props;
   return (
     <ul>
-      {products.map((item,_) => <li key={_}><Link href={`/${item.id}`}>{item.title}</Link></li>)}
+      {products.map((item,_) => <li key={_}><Link href={`/product/${item.id}`}>{item.title}</Link></li>)}
     </ul>
   );
 }
