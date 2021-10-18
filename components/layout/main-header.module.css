@@ -29,6 +29,13 @@
     color: #74dacc;
     font-size: 1rem;
   }
+
+  .navigation ul {
+    display: flex;
+  }
+  .navigation ul > li {
+    margin-right: 1rem;
+  }
   
   @media (min-width: 768px) {
     .logo {

@@ -12,6 +12,9 @@ function MainHeader(){
                     <li>
                         <Link href="/events">All Event</Link>
                     </li>
+                    <li>
+                        <Link href="/users">All Users</Link>
+                    </li>
                 </ul>
             </nav>
         </header>
